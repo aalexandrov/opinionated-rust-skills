@@ -1,0 +1,4 @@
+interface:
+  display_name: "Readable Rust"
+  short_description: "Apply opinionated Rust readability conventions."
+  default_prompt: "Use $readable-rust while writing or reviewing this Rust code."

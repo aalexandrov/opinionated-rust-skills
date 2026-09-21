@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rust-agent-skills",
+  "version": "0.1.0",
+  "description": "Opinionated skills for writing and reviewing readable Rust code.",
+  "author": {
+    "name": "Alexander Alexandrov",
+    "url": "https://github.com/aalexandrov"
+  },
+  "homepage": "https://github.com/aalexandrov/rust-agent-skills",
+  "repository": "https://github.com/aalexandrov/rust-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "codex",
+    "rust",
+    "code-review"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Rust Agent Skills",
+        "shortDescription": "Write and review readable Rust code.",
+        "longDescription": "A collection of focused, opinionated skills for writing and reviewing readable Rust code.",
+        "developerName": "Alexander Alexandrov",
+        "category": "Productivity",
+        "capabilities": [],
+        "websiteURL": "https://github.com/aalexandrov/rust-agent-skills",
+        "defaultPrompt": [
+          "Use $readable-rust while writing this Rust code.",
+          "Review this Rust code with $readable-rust."
+        ]
+      }
+    }
+  }
+}
