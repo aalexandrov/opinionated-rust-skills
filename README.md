@@ -12,6 +12,10 @@ used one skill at a time.
 - [`document-flow`](skills/document-flow/SKILL.md) documents high-level execution
   blocks with concise comments and single blank lines.
 
+- [`implement-issue-incrementally`](skills/implement-issue-incrementally/SKILL.md)
+  implements a supplied issue on the current branch, with one commit per list
+  item and review before each commit.
+
 ## Install one skill
 
 Ask Codex to install the skill from its versioned GitHub path:

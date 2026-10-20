@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implement Issue Incrementally"
+  short_description: "Implement issue items with review before each commit."
+  default_prompt: "Use $implement-issue-incrementally <issue> to work on the current branch, one issue item per commit, stopping before each commit for review. Keep ./docs changes and progress updates brief."
