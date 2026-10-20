@@ -9,6 +9,9 @@ used one skill at a time.
 - [`readable-rust`](skills/readable-rust/SKILL.md) applies focused readability
   conventions to Rust validation, errors, documentation, and Serde defaults.
 
+- [`document-flow`](skills/document-flow/SKILL.md) documents high-level execution
+  blocks with concise comments and single blank lines.
+
 ## Install one skill
 
 Ask Codex to install the skill from its versioned GitHub path:

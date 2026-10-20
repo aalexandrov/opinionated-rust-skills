@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Flow"
+  short_description: "Document execution stages with comments and spacing."
+  default_prompt: "Use $document-flow to document the high-level blocks in this method and separate them by a single blank line."
